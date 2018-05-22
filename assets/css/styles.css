@@ -48,6 +48,14 @@ h2 {
     color: #2b2b2b;
 }
 
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 4rem;
+}
+
 .w50{
     width: 50vw;
    }
@@ -64,6 +72,10 @@ h2 {
 
 .capital{
     text-transform: uppercase;
+}
+
+.bg-grey{
+    background-color: #f7f5f7;
 }
 
 #section-home{
@@ -114,14 +126,117 @@ h2 {
     content: '';
     background: #9de52c;
     position: absolute;
-    width: 100%;
+    width: 105%;
     height: 10%;
     top:70%;
-    left: 0;
+    left: -2%;
     transition: 0.3s linear;
     z-index: -1;
 }
 .scroll:hover:before {
     top:-10%;
     height: 90%;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.section{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.section-contact{
+    height: 45vh;
+    display: flex;
+    margin: 5%;
+}
+
+.relative{
+    position: relative;
+}
+
+.round{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-family: 'ralewayregular';
+}
+
+.js{
+    background-color: #9de52c;
+    height: 140px;
+    width: 140px;
+    top: 12%;
+    left: 35%;
+    font-size: 1.8rem;
+}
+.sass{
+    background-color: #d600b8;
+    height: 100px;
+    width: 100px;
+    top: 37%;
+    left: 30%;
+    font-size: 1.3rem;
+}
+.html{
+    background-color: #f7dc3e;
+    height: 200px;
+    width: 200px;
+    top: 40%;
+    left: 40%;
+    font-size: 2.2rem;
+}
+.css{
+    background-color: #9de52c;
+    height: 150px;
+    width: 150px;
+    top: 50%;
+    right: 32%;
+    font-size: 1.5rem;
+}
+.ux{
+    background-color: #f7dc3e;
+    height: 150px;
+    width: 150px;
+    top: 18%;
+    right: 34%;
+    font-size: 1.5rem;
+}
+.twig{
+    background-color: #d600b8;
+    height: 110px;
+    width: 110px;
+    top: 73%;
+    left: 36%;
+    font-size: 1.6rem;
+}
+.php{
+    background-color: #d600b8;
+    height: 60px;
+    width: 60px;
+    top: 25%;
+    right: 48%;
+    font-size: 1.3rem;
+}
+.node{
+    background-color: #9de52c;
+    height: 70px;
+    width: 70px;
+    top: 80%;
+    right: 44%;
+    font-size: 1.2rem;
+}
+
+.number{
+    font-size: 25rem;
+    font-family: 'ralewaymedium', sans-serif;
+    color: #121314;
+    margin-left: 20px;
+    margin-top: -50px;
 }
