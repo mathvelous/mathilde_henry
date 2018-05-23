@@ -49,7 +49,9 @@ h2 {
 }
 
 h3{
-    font-size: 2rem;
+    font-size: 2.3rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 h4{
@@ -239,4 +241,32 @@ h4{
     color: #121314;
     margin-left: 20px;
     margin-top: -50px;
+}
+
+.img-project img{
+    width: 35vw;
+    height: auto;
+}
+
+.p5{
+    padding: 5%;
+}
+
+.text-section{
+    padding: 5%;
+    font-family: 'ralewayregular', sans-serif;
+    font-size: 1.2rem;
+}
+
+.color-n1{
+    color: #9de52c;
+    transition: all ease 1s;
+}
+.color-n2{
+    color: #f7dc3e;
+    transition: all ease 1s;
+}
+.color-n3{
+    color: #d600b8;
+    transition: all ease 1s;
 }

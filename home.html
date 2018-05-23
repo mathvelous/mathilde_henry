@@ -54,13 +54,44 @@
         </div>
     </section>
     <section class="section bg-grey">
-        <span class="number">1</span>
+        <span class="number n1">1</span>
+        <div class="row align-center p5">
+            <article class="text-section">
+                <h3>Design d'application <br>Leroy Merlin</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid eius, in, iusto magnam necessitatibus,
+                    provident quibusdam quidem repellat repudiandae ut voluptatem voluptatibus? Cupiditate doloremque error i
+                    n quisquam recusandae. Dignissimos.</p>
+            </article>
+            <div class="img-project">
+                <img src="assets/images/leroymerlin1.jpg" alt="Appli Leroy Merlin">
+            </div>
+        </div>
     </section>
     <section class="section">
-        <span class="number">2</span>
+        <span class="number n2">2</span>
+        <div class="row align-center p5">
+            <div class="img-project">
+                <img src="assets/images/cloudico.jpg" alt="Appli Leroy Merlin">
+            </div>
+            <article class="text-section">
+                <h3>Dictionnaire collaboratif pour les passionnés de digital</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid eius, in, iusto magnam necessitatibus,
+                    provident quibusdam quidem repellat repudiandae ut voluptatem voluptatibus? Cupiditate doloremque error i
+                    n quisquam recusandae. Dignissimos.</p>
+            </article>
+        </div>
     </section>
     <section class="section bg-grey">
-        <span class="number">3</span>
+        <span class="number n3">3</span>
+        <div class="row align-center p5">
+            <article class="text-section">
+                <h3>Landing page May Tea</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid eius, in, iusto magnam necessitatibus,
+                    provident quibusdam quidem repellat repudiandae ut voluptatem voluptatibus? Cupiditate doloremque error i
+                    n quisquam recusandae. Dignissimos.</p>
+            </article>
+            <iframe width="150%" height="100%" src="assets/images/maytea.mp4" frameborder="0" allow="autoplay" ></iframe>
+        </div>
     </section>
     <section class="section-contact">
         <div class="marge">
@@ -68,5 +99,22 @@
         </div>
     </section>
 </main>
+
+<script>
+    const n1 = document.querySelector('.n1')
+    const n2 = document.querySelector('.n2')
+    const n3 = document.querySelector('.n3')
+    window.onscroll = function() {
+        if (n1.getBoundingClientRect().top <= window.innerHeight * 0.75 && n1.getBoundingClientRect().top > 0) {
+                n1.classList.add('color-n1')
+        }
+        if (n2.getBoundingClientRect().top <= window.innerHeight * 0.75 && n2.getBoundingClientRect().top > 0) {
+            n2.classList.add('color-n2')
+        }
+        if (n3.getBoundingClientRect().top <= window.innerHeight * 0.75 && n3.getBoundingClientRect().top > 0) {
+            n3.classList.add('color-n3')
+        }
+    }
+</script>
 </body>
 </html>
