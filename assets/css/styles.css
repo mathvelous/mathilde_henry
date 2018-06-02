@@ -85,7 +85,6 @@ h4{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: #f7f5f7;
 }
 
 #section-home h2{
@@ -151,7 +150,7 @@ h4{
 }
 
 .section-contact{
-    height: 45vh;
+    height: 25vh;
     display: flex;
     margin: 5%;
 }
@@ -177,6 +176,8 @@ h4{
     top: 12%;
     left: 35%;
     font-size: 1.8rem;
+    transform: scale(0);
+    transition: all 1s;
 }
 .sass{
     background-color: #d600b8;
@@ -185,6 +186,8 @@ h4{
     top: 37%;
     left: 30%;
     font-size: 1.3rem;
+    transform: scale(0);
+    transition: all 1s;
 }
 .html{
     background-color: #f7dc3e;
@@ -193,6 +196,8 @@ h4{
     top: 40%;
     left: 40%;
     font-size: 2.2rem;
+    transform: scale(0);
+    transition: all 1s;
 }
 .css{
     background-color: #9de52c;
@@ -201,6 +206,8 @@ h4{
     top: 50%;
     right: 32%;
     font-size: 1.5rem;
+    transform: scale(0);
+    transition: all 1s;
 }
 .ux{
     background-color: #f7dc3e;
@@ -209,6 +216,8 @@ h4{
     top: 18%;
     right: 34%;
     font-size: 1.5rem;
+    transform: scale(0);
+    transition: all 1s;
 }
 .twig{
     background-color: #d600b8;
@@ -217,6 +226,8 @@ h4{
     top: 73%;
     left: 36%;
     font-size: 1.6rem;
+    transform: scale(0);
+    transition: all 1s;
 }
 .php{
     background-color: #d600b8;
@@ -225,6 +236,8 @@ h4{
     top: 25%;
     right: 48%;
     font-size: 1.3rem;
+    transform: scale(0);
+    transition: all 1s;
 }
 .node{
     background-color: #9de52c;
@@ -233,6 +246,8 @@ h4{
     top: 80%;
     right: 44%;
     font-size: 1.2rem;
+    transform: scale(0);
+    transition: all 1s;
 }
 
 .number{
@@ -241,6 +256,10 @@ h4{
     color: #121314;
     margin-left: 20px;
     margin-top: -50px;
+}
+
+.animate {
+    transform: scale(1);
 }
 
 .img-project img{
@@ -270,3 +289,129 @@ h4{
     color: #d600b8;
     transition: all ease 1s;
 }
+
+.bg-home{
+    position: relative;
+    z-index: -10;
+    background-color: #f7f5f7;
+}
+
+/***Ronds***/
+
+.round1{
+    position: absolute;
+    top:400px;
+    right: 2%;
+    z-index: -1;
+    width: 200px;
+    height: 200px;
+    background-color: #9de52c;
+    border-radius: 100%;
+    animation-duration: 1s;
+    animation-name: rounds;
+}
+
+.round2{
+    position: absolute;
+    top:50px;
+    left: 30%;
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    background-color: #d600b8;
+    border-radius: 100%;
+    animation-duration: 1.3s;
+    animation-name: rounds;
+}
+
+.round3{
+    position: absolute;
+    top: 600px;
+    right: 35%;
+    z-index: -1;
+    width: 70px;
+    height: 70px;
+    background-color: #d600b8;
+    border-radius: 100%;
+    animation-duration: 0.8s;
+    animation-name: rounds;
+}
+
+.round4{
+    position: absolute;
+    top: 20px;
+    right: 30%;
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    background-color: #f7dc3e;
+    border-radius: 100%;
+    animation-duration: 1s;
+    animation-name: rounds;
+}
+
+.round5{
+    position: absolute;
+    top: 530px;
+    left: 2%;
+    z-index: -1;
+    width: 70px;
+    height: 70px;
+    background-color: #9de52c;
+    border-radius: 100%;
+    animation-duration: 1.2s;
+    animation-name: rounds;
+}
+
+
+@keyframes rounds {
+    0%{transform: scale(0)}
+    100%{transform: scale(1)}
+}
+
+.round-image img{
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    position: absolute;
+    top: 220px;
+    right: 15%;
+    z-index: -1;
+}
+
+.network{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.network div:last-child{
+    margin-left: 30px;
+}
+
+.mt40{
+    margin-top: 40px;
+}
+
+.mail{
+    margin-left: 20px;
+}
+
+.icon img{
+    width: 40px;
+    height: 40px;
+}
+
+.t
+
+
+
+
+
+
+
+
+
+
+
+
+
